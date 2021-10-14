@@ -1,0 +1,20 @@
+button {
+    padding: 18px 129px;
+    border: 0;
+    border-radius: 99px;
+    color: var(--white-color);
+    font-weight: bold;
+    background-image: linear-gradient( to right, var(--blue-color-two), var(--blue-color-one));
+}
+
+.color1 {
+    background-image: linear-gradient(to right, red, var(--blue-color-one));
+}
+
+.color2 {
+    background-image: linear-gradient(to right, yellow, var(--blue-color-one));
+}
+
+.color3 {
+    background-image: linear-gradient(to right, gray, var(--blue-color-one));
+}
