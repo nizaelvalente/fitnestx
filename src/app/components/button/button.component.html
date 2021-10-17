@@ -1,4 +1,6 @@
-<button class={{class}} (click)="emitResponse()">
-    <img src={{icon}} alt="icone" *ngIf="icon">
-    {{title}}
-</button>
+<div [ngClass]="{progress: progress}" id="button-body">
+    <button class={{class}} (click)="emitResponse()">
+        <img src={{icon}} alt="icone" *ngIf="icon">
+        {{title}}
+    </button>
+</div>

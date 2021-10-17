@@ -1,27 +1,27 @@
-.onboarding-one {
+.onboarding-three {
     display: flex;
     flex-direction: column;
-    background: url('../../../assets/images/onboarding-one.svg') no-repeat;
+    background: url('../../../assets/images/onboarding-three.svg') no-repeat;
     background-position: top;
     background-size:contain;
 }
 
-.onboarding-one-body {
+.onboarding-three-body {
     height: 85vh;
     display: flex;
     align-items: flex-end;
 
 }
 
-.onboarding-one-body >  img {
+.onboarding-three-body >  img {
     height: 100%;
 }
-.onboarding-one-body-text {
+.onboarding-three-body-text {
     margin: 6.4rem 3rem;
     font-size: 1.6rem;
 }
 
-.onboarding-one-button {
+.onboarding-three-button {
     background: transparent;
     padding: 0 3rem;
     display: flex;
