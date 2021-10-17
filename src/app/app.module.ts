@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ButtonComponent } from './components/button/button.component';
 import { WelcomeScreenComponent } from './pages/welcome-screen/welcome-screen.component';
+import { OnboardingOneComponent } from './pages/onboarding-one/onboarding-one.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ButtonComponent,
-    WelcomeScreenComponent
+    WelcomeScreenComponent,
+    OnboardingOneComponent
   ],
   imports: [
     BrowserModule,

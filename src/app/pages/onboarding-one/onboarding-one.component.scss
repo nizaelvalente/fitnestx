@@ -1,0 +1,31 @@
+.onboarding-one {
+    display: flex;
+    flex-direction: column;
+    background: url('../../../assets/images/onboarding-one.svg') no-repeat;
+    background-position: top;
+    background-size:contain;
+}
+
+.onboarding-one-body {
+    height: 85vh;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.onboarding-one-body >  img {
+    height: 100%;
+}
+.onboarding-one-body-text {
+    margin: 6.4rem 3rem;
+    font-size: 1.6rem;
+}
+
+.onboarding-one-button {
+    background: transparent;
+    padding: 0 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 15vh;
+}

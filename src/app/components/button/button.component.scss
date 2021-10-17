@@ -6,3 +6,11 @@ button {
     font-weight: bold;
     background-image: linear-gradient( to right, var(--blue-color-two), var(--blue-color-one));
 }
+
+.button-circle {
+    padding: 0;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border-right: solid 3px yellow double;
+}
