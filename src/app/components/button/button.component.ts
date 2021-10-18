@@ -1,4 +1,3 @@
-import { style } from '@angular/animations';
 import { Component, OnInit, Output, Input, EventEmitter } from '@angular/core';
 
 @Component({

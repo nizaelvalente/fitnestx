@@ -5,6 +5,7 @@ import { OnboardingOneComponent } from './pages/onboarding-one/onboarding-one.co
 import { OnboardingTwoComponent } from './pages/onboarding-two/onboarding-two.component';
 import { OnboardingThreeComponent } from './pages/onboarding-three/onboarding-three.component';
 import { OnboardingFourComponent } from './pages/onboarding-four/onboarding-four.component';
+import { RegisterPageOneComponent } from './pages/register/register-page-one/register-page-one.component';
 
 const routes: Routes = [
   { path: 'welcome', component: WelcomeScreenComponent },
@@ -12,7 +13,7 @@ const routes: Routes = [
   { path: 'onboarding/two', component: OnboardingTwoComponent },
   { path: 'onboarding/three', component: OnboardingThreeComponent },
   { path: 'onboarding/four', component: OnboardingFourComponent },
-
+  { path: 'register/one', component: RegisterPageOneComponent },
 ];
 
 @NgModule({

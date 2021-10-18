@@ -1,0 +1,39 @@
+.register-page-one{
+    display: flex;
+    flex-direction: column;
+}
+.header-register-page-one {
+    font-size: 1.8rem;
+    display: grid;
+    place-items: center;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+}
+
+.form-register-page-one {
+    margin: 0 3rem;
+}
+
+.checkbox-container {
+    padding: 1rem 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+    color: var(--gray-color-two);
+    margin-bottom: 14.7rem;
+}
+.checkbox-container >label{
+    padding-left: 1rem;
+}
+
+.checkbox-container >input{
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.buttons {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}

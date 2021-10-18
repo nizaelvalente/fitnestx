@@ -9,6 +9,8 @@ import { OnboardingOneComponent } from './pages/onboarding-one/onboarding-one.co
 import { OnboardingTwoComponent } from './pages/onboarding-two/onboarding-two.component';
 import { OnboardingThreeComponent } from './pages/onboarding-three/onboarding-three.component';
 import { OnboardingFourComponent } from './pages/onboarding-four/onboarding-four.component';
+import { RegisterPageOneComponent } from './pages/register/register-page-one/register-page-one.component';
+import { InputComponent } from './components/input/input.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { OnboardingFourComponent } from './pages/onboarding-four/onboarding-four
     OnboardingOneComponent,
     OnboardingTwoComponent,
     OnboardingThreeComponent,
-    OnboardingFourComponent
+    OnboardingFourComponent,
+    RegisterPageOneComponent,
+    InputComponent
   ],
   imports: [
     BrowserModule,
