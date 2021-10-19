@@ -1,15 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
 
+@font-face {
+    font-family: "Poppins";
+    src: local("Poppins"), url(./assets/font/Poppins/Poppins-ExtraLight.otf) format("truetype");
+}
+
 :root {
-    --black-color: #1D1617;
-    --gray-color-one: #7B6F72;
-    --gray-color-two: #ADA4A5;
-    --gray-color-three: #F7F8F8;
-    --blue-color-one: #92A3FD;
-    --blue-color-two: #9DCEFF;
-    --purple-one: #C58BF2;
-    --purple-two: #EEA4CE;
-    --white-color: #F7F8F8;
+    --black-color: #1d1617;
+    --gray-color-one: #7b6f72;
+    --gray-color-two: #ada4a5;
+    --gray-color-three: #f7f8f8;
+    --blue-color-one: #92a3fd;
+    --blue-color-two: #9dceff;
+    --purple-one: #c58bf2;
+    --purple-two: #eea4ce;
+    --white-color: #f7f8f8;
 }
 
 * {
@@ -18,7 +23,9 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     font-size: 62.5%;
     height: 100%;
+    font-family: "Poppins";
 }
