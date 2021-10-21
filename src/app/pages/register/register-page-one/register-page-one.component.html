@@ -4,16 +4,36 @@
         <h2 class="title-register-page-one">Create an Account</h2>
     </header>
     <form action="" class="form-register-page-one">
-        <app-input placeholder="First Name" type="text"></app-input>
-        <app-input placeholder="Last Name" type="text"></app-input>
-        <app-input placeholder="Email" type="email"></app-input>
-        <app-input placeholder="Password" type="password"></app-input>
+        <app-input placeholder="First Name" type="text" icon="2_User"></app-input>
+        <app-input placeholder="Last Name" type="text" icon="2_User"></app-input>
+        <app-input placeholder="Email" type="email" icon="Message"></app-input>
+        <app-input placeholder="Password" type="password" icon="Lock" visible="Show"></app-input>
         <div class="checkbox-container">
             <input type="checkbox">
-            <label for="check">By continuing you accept our <a href="#">Privacy Policy</a> and <a href="#">Term of Use</a></label>
+            <label for="check">By continuing you accept our Privacy Policy and Term of Use!
+            </label>
         </div>
         <div class="buttons">
             <app-button title="Register"></app-button>
         </div>
     </form>
+
+    <div class="or">
+        <div class="line"></div>
+        Or
+        <div class="line"></div>
+    </div>
+
+    <div class="social">
+        <div class="google">
+            <img src="{{getIcon('Google')}}" alt="">
+        </div>
+        <div class="facebook">
+            <img src="{{getIcon('Facebook')}}" alt="">
+        </div>
+    </div>
+    <div class="accout">
+        <span>Already have an account?</span>
+        <span routerLink="/welcome">Login</span>
+    </div>
 </div>

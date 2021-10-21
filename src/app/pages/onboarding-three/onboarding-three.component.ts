@@ -3,13 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-onboarding-three',
   templateUrl: './onboarding-three.component.html',
-  styleUrls: ['./onboarding-three.component.scss']
+  styleUrls: ['./onboarding-three.component.scss'],
 })
 export class OnboardingThreeComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

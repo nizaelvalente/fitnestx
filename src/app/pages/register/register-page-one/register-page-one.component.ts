@@ -3,13 +3,13 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-register-page-one',
   templateUrl: './register-page-one.component.html',
-  styleUrls: ['./register-page-one.component.scss']
+  styleUrls: ['./register-page-one.component.scss'],
 })
 export class RegisterPageOneComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
+  ngOnInit(): void {}
+  getIcon(name: string) {
+    return `../../../../assets/icons/Light/${name}.svg`;
   }
-
 }
