@@ -11,6 +11,7 @@ import { OnboardingThreeComponent } from './pages/onboarding-three/onboarding-th
 import { OnboardingFourComponent } from './pages/onboarding-four/onboarding-four.component';
 import { RegisterPageOneComponent } from './pages/register/register-page-one/register-page-one.component';
 import { InputComponent } from './components/input/input.component';
+import { RegisterPageTwoComponent } from './pages/register/register-page-two/register-page-two.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { InputComponent } from './components/input/input.component';
     OnboardingThreeComponent,
     OnboardingFourComponent,
     RegisterPageOneComponent,
-    InputComponent
+    InputComponent,
+    RegisterPageTwoComponent
   ],
   imports: [
     BrowserModule,
