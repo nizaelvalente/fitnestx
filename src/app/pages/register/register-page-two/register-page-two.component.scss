@@ -1,16 +1,29 @@
 .register-page-two {  
     display: flex;
     flex-direction: column;
-    background: url('../../../../assets/images/register-two.svg'), no-repeat ;
-    background-position: top;
+    // background: url('../../../../assets/images/register-two.svg'), no-repeat ;
+    // background-position: top;
     // background-size:contain;
 }
 .register-page-two-container {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     height: 100vh;
 }
+
+.register-page-two-container > img {
+    width: 100%;
+}
 .header-register-two {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
+    margin: 1rem;
+
+}
+.header-register-two h2 {
+    
+    font-weight: 900;
 }
 .body-register-two {
     width: 100%;
@@ -21,8 +34,12 @@
     display: flex;
     align-items: center;
     padding: 1rem;
+    background-color: var(--gray-color-three);
+    margin: 1rem;
+    border-radius: 10px;
 }
-.container-component-register-two input{
+
+.container-component-register-two input, select{
     width: 100%;
     height: 40px;
     font-size: 2rem;

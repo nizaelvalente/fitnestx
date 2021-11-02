@@ -11,5 +11,11 @@ export class RegisterPageTwoComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  getImg(name: string) {
+    return `../../../../assets/images/${name}.svg`;
+  }
 
+  getIcon(name: string) {
+    return `../../../assets/icons/Light/${name}.svg`;
+  }
 }
