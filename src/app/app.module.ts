@@ -12,6 +12,7 @@ import { OnboardingFourComponent } from './pages/onboarding-four/onboarding-four
 import { RegisterPageOneComponent } from './pages/register/register-page-one/register-page-one.component';
 import { InputComponent } from './components/input/input.component';
 import { RegisterPageTwoComponent } from './pages/register/register-page-two/register-page-two.component';
+import { RegisterPageThreeComponent } from './pages/register/register-page-three/register-page-three.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { RegisterPageTwoComponent } from './pages/register/register-page-two/reg
     OnboardingFourComponent,
     RegisterPageOneComponent,
     InputComponent,
-    RegisterPageTwoComponent
+    RegisterPageTwoComponent,
+    RegisterPageThreeComponent
   ],
   imports: [
     BrowserModule,

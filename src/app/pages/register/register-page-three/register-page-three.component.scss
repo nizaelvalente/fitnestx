@@ -1,0 +1,38 @@
+
+.register-three-container {
+  text-align: center;
+}
+
+.header-register-three {
+  width: 100%;
+  padding: 20px 30px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.carousel-register-three {
+  margin-bottom: 20px;
+}
+.carousel {
+  width:100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: auto;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.img-container-carousel {
+  flex: none;
+  width: 85vw;
+  height: 100%;
+  transition: 1s all ease;
+  border-radius: 5px;
+}
+
+.img-container-carousel img {
+  width: 100%;
+}

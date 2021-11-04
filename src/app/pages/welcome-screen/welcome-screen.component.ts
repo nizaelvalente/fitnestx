@@ -10,3 +10,4 @@ export class WelcomeScreenComponent implements OnInit {
 
   ngOnInit(): void {}
 }
+
